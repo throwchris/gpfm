@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>GPFM 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/d1a6249b79.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="style.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+    <audio id="myAudio" src="gpfm3.mp3" preload="auto">
+    </audio>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-blue w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-light-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars w3-text-blue"></i></a>
+    
+   
+    
+    <a href="index.html"><i class='fas fa-arrow-left w3-btn w3-bar-item w3-margin-center w3-text-white' style='font-size:36px;'></i></a>
+    <a href="gpfm4.html"><i class='fas fa-arrow-right w3-btn w3-bar-item w3-margin-center w3-text-white' style='font-size:36px;'></i></a>
+    <!--<a><i class=" w3-btn w3-bar-item w3-margin-center w3-right material-icons" style="font-size:36px" onClick="togglePlay()">headset</i></a> -->
+    <i class="w3-btn w3-bar-item w3-margin-center w3-right material-icons w3-text-white " style="font-size:36px" onclick="myFunction4()">find_in_page</i>
+    <i class="w3-btn w3-bar-item w3-margin-center w3-right material-icons w3-text-white" style="font-size:36px" onclick="myFunction2()">brightness_6</i>
+      
+    <!--  <audio controls autoplay>
+  <source src="mol7.mp3" type="audio/mpeg">
+ </audio>
+    -->
+
+    
+   
+    
+    <!--
+     <btn class="w3-bar-item w3-button w3-padding-large w3-black w3-badge" onClick="togglePlay()">Audio</btn>   
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+    -->
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="/lod/index.html" class="w3-bar-item w3-button w3-padding-large">Life Of Daniel</a>
+    <a href="/ral/index.html" class="w3-bar-item w3-button w3-padding-large">R & L</a>
+    <a href="/MOL/mol1.html" class="w3-bar-item w3-button w3-padding-large">More On Life</a>
+    
+  </div>
+  
+</div>
+
+<!-- Header 
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">MORE ON LIFE</h1>
+  <p class="w3-xlarge">Rev. Rose M. Aluli</p>
+ <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button> 
+</header>
+-->
+<!-- First Grid -->
+
+<div id="font" class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; font-size: 16px; " id="band">
+
+    <p class="w3-justify"><strong class="w3-text-light-blue"> John 15:26-27</strong>  <strong><span class="w3-text-red">But when the Comforter is come,</span></strong> <strong class="w3-text-light-blue"> </strong> Now the Spirit had not been given at this time, 
+    remember, the Holy Ghost.  Christ in his Spirit had come into man but not in the proportion of the Holy Ghost. <strong class="w3-text-light-blue"> <span class="w3-text-red">But when the Comforter is come, whom 
+    I will send unto you from the Father, even the Spirit of truth, which proceedeth from the Father, he shall testify of me:</span></strong> Now we have that Holy Ghost.  We have been baptized 
+    in the Holy Ghost. <strong class="w3-text-light-blue"> <span class="w3-text-red">And ye also shall bear witness, because ye have been with me from the beginning.</span></strong>  Oh, you don’t mean it.  We have been 
+    with him from the beginning?  He said we are predestinated to become Sons of God.  It was in God's plan.  Now he is telling you that you have been with him from the beginning.  He is no 
+    respecter of persons.  We have been with him from the beginning too.  But we have not been aware of it.  Amen. You know what scripture I'm talking about, don't you?  When he said you're 
+    predestined and you were with him from the foundation of the world?</p>
+
+
+    <p class="w3-justify"><strong class="w3-text-red"> Romans 13:11-14</strong>  <span></span><strong class="w3-text-light-blue"> And that, knowing the time, that now it is high time to awake out of sleep:</strong>  And that is for sure, and 
+    know who we are. <strong class="w3-text-light-blue"> for now is our salvation nearer than when we believed. The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put 
+    on the armour of light. Let us walk honestly, as in the day; not in rioting and drunkenness, not in chambering and wantonness, not in strife and envying. But put ye on the Lord Jesus 
+    Christ, and make not provision for the flesh, to fulfil the lusts thereof.</strong>  I want to tell you.  You get enough life in the Spirit and you do not have to worry about the flesh.  
+    The life of Christ kills the desires of the flesh and overcomes Satan in our lives.  So if you will just reverse it instead of trying to put the flesh down.  Seek after Christ.  Seek after 
+    life.  Seek after the Spirit.  And when you start walking in the Spirit, you do not have to worry about the flesh.  It just naturally takes care of itself.  Amen.</p>
+
+
+    <p class="w3-justify"><strong class="w3-text-red"> 1 Corinthians 15:23-26</strong>  <span></span><strong class="w3-text-light-blue"> But every man in his own order: Christ the firstfruits; afterward they that are Christ's at 
+    his coming.</strong>  Now, to clarify this for you: Christ was the first one to ever be resurrected from the dead.  Amen. <strong class="w3-text-light-blue"> afterward they that are Christ's at his 
+    coming.</strong>  And this same life, this Christ, is in us.  Remember that now, and he is in us also as we remain alive. <strong class="w3-text-light-blue"> Then cometh the end, when he shall have delivered up the 
+    kingdom to God, even the Father; when he shall have put down all rule and all authority and power. For he must reign, till he hath put all enemies under his feet. The last enemy that 
+    shall be destroyed is death.</strong> </p>
+
+    <p class="w3-right-align w3-text-orange" style="opacity: 0.5"><span class="w3-animate-fading" style="opacity: 0.4"></span>  pp. 13</p>
+
+
+    <p class="w3-justify"><strong class="w3-text-red"> Galatians 2:16 </strong>  <span></span><strong class="w3-text-light-blue"> Knowing that a man is not justified by the works of the law, but by the faith of Jesus Christ, even we have 
+    believed in Jesus Christ, that we might be justified by the faith of Christ, and not by the works of the law: for by the works of the law shall no flesh be justified.</strong> </p>
+
+
+    <p class="w3-justify"><strong class="w3-text-red"> Galatians 3:2-3</strong>  <span></span><strong class="w3-text-light-blue"> This only would I learn of you, Received ye the Spirit by the works of the law, or by the hearing of faith? 
+    Are ye so foolish? Having begun in the Spirit, are ye now made perfect by the flesh?</strong>  And what they were doing, they were having ceremonies and rituals.  And we go through the same 
+    kind of paraphernalia, in a measure, instead of just letting the Spirit do what he wants to do in our lives.</p>
+
+
+    <p class="w3-justify"><strong class="w3-text-red"> Galatians 3:25-29</strong>  <span></span><strong class="w3-text-light-blue"> But after that faith is come, we are no longer under a schoolmaster.</strong>  Or under the law.  We try to stay 
+        under that law yet, to the fact that we think that we have to do it. That is the law mixed with grace.  We do not have to do anything but believe the Word of God and let the Spirit do 
+        the work in us that he has promised he would do and quit struggling with it.  Amen.  He will do it.  The Lord will do it by the Spirit.  He knows how to.  We only hinder God.  Although 
+        if we are tempted with something, he told us to resist it and Satan will flee, and we are to overcome the desires of the flesh and let the Spirit do the work in us.  Amen. <strong class="w3-text-light-blue"> For 
+        ye are all the children of God by faith in Christ Jesus. For as many of you as have been baptized into Christ have put on Christ. There is neither Jew nor Greek, there is neither bond 
+        nor free, there is neither male nor female: for ye are all one in Christ Jesus. And if ye be Christ's, then are ye Abraham's seed, and heirs according to the promise.</strong>  Now if 
+        you want to look up heirs sometime on the promises to Abraham, you will find out who you are too, because it tells it in there.  Remember that he said we are heirs of Abraham.  
+        Everything that was promised to him, this great city, and all of this and so on and so forth, which is the city of the living God, which are the Sons of God.</p>
+
+    
+    <p class="w3-justify"><strong class="w3-text-red"> Galatians 4:1-7</strong>  <span></span><strong class="w3-text-light-blue"> Now I say, That the heir, as long as he is a child, differeth nothing from a servant, though he be lord of all; 
+        But is under tutors and governors until the time appointed of the father.</strong>  There is a time appointed of the Father when we will come into this fullness of God, when he says the 
+        fullness of the Godhead dwelt in its fullness in Christ, and we are heirs and joint heirs with him, so we claim all of these things with this here. <strong class="w3-text-light-blue"> Even so we, when we were 
+        children, were in bondage under the elements of the world: But when the fulness of the time was come, God sent forth his Son, made of a woman, made under the law, To redeem them 
+        that were under the law, that we might receive the adoption of sons. And because ye are sons, God hath sent forth the Spirit of his Son into your hearts,</strong> That is Christ in 
+        us. <strong class="w3-text-light-blue"> crying, Abba, Father. Wherefore thou art no more a servant, but a son; and if a son, then an heir of God through Christ.</strong>  So we are an heir of God through Christ.  
+        An heir will rule and reign as kings and priests with the Lord.  That is what the Bible says. We have heard this negative preaching on these things for so long that it is hard for us 
+        not to fall into that same pit.  To realize that if we knew what age we are living in, the fullness of time is upon us.  And all of these promises that he made to the ends of the earth 
+        are upon us, for the Christian.  And he is getting ready to bring a people into the fullness to take over this world with Christ, Amen, and to rule and reign with him, like he said.</p>
+
+        <p class="w3-right-align w3-text-light-gray" style="opacity: 0.5"><span class="w3-animate-fading" style="opacity: 0.4"></span>  pp. 14</p>  
+        
+        
+    <p class="w3-justify"><strong class="w3-text-red"> Colossians 1:9-22, 26-28</strong>  <span></span><strong class="w3-text-light-blue"> For this cause we also, since the day we heard it, do not cease to pray for you, and to desire that ye 
+        might be filled with the knowledge of his will in all wisdom and spiritual understanding; That ye might walk worthy of the Lord unto all pleasing, being fruitful in every good work, and 
+        increasing in the knowledge of God;</strong> We have to just keep going.  We have to believe what we read.  We have to believe what we hear in the scriptures.  Ask God to reveal them by 
+        his Spirit to you if you do not understand, to open your understanding. <strong class="w3-text-light-blue"> Strengthened with all might, according to his glorious power,</strong> Now look.  Strengthened with all 
+        might.  Well, if you are strengthened with all of his might then you are going to be pretty strong, aren't you? <strong class="w3-text-light-blue"> unto all patience and longsuffering with joyfulness; Giving 
+        thanks unto the Father, which hath made us meet to be partakers of the inheritance of the saints in light:</strong>  Or made us fit to be partakers of the inheritance of the saints in 
+        light.  And the light is the Spirit. <strong class="w3-text-light-blue"> Who hath delivered us from the power of darkness, and hath translated us into the kingdom of his dear Son: In whom we have redemption 
+        through his blood, even the forgiveness of sins: Who is the image of the invisible God, the firstborn of every creature:</strong>  Of every flesh man; he was the firstborn. <strong class="w3-text-light-blue">  For 
+        by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were 
+        created by him, and for him:</strong> Now we might  look at this world out here and the mess that it is in, but still he created it because he has a plan.  When man gets through 
+        struggling with it and trying to do what they are trying to do and cannot do it, then God is going to unleash his power in flesh vessels throughout the earth and they are going forth 
+        as Christ in the earth, him being the head. </p>    
+       
+     
+    <p class="w3-justify">If he could ever get a people, which he will.  He has promised that he would have a people who would come into complete obedience to him, absolute complete obedience 
+        to him to where he can take those people, and they will be changed.  This corruptible will put on incorruptibility and then we will be changed, Amen, into that vessel. <strong class="w3-text-light-blue"> And he is 
+        before all things, and by him all things consist.</strong>  Not just some things, all things consist by Christ. <strong class="w3-text-light-blue"> And he is the head of the body, the church: who is the 
+        beginning,</strong>  Now look, this is the beginning. <strong class="w3-text-light-blue"> the firstborn from the dead; that in all things he might have the preeminence.</strong>  hat he might be the super chief in 
+        all things concerning the Church.  He doesn't have that now.  Once in a while, he gets to speak a word if the people will let him.  Most generally, it is flesh.  Amen. <strong class="w3-text-light-blue"> For it 
+        pleased the Father that in him should all fulness dwell;</strong>  Now if we are heirs and joint heirs; and the fullness dwells in him; and he is not ashamed to call us brethren; and he 
+        is going to bring forth a people to rule and reign with him, which the Word says, then we also will be filled with all that fullness of God, because the fullness dwells in 
+        Christ. <strong class="w3-text-light-blue"> And, having made peace through the blood of his cross, by him to reconcile all things unto himself; by him, I say, whether they be things in earth, or things in heaven. 
+        And you, that were sometime alienated and enemies in your mind by wicked works, yet now hath he reconciled: In the body of his flesh through death, to present you holy and unblameable 
+        and unreproveable in his sight:</strong>  With no reproach whatsoever.  He is able, and he is going to present you holy – this is because he died – and unblameable: not a blame against 
+        you, completely pure.  Amen. <strong class="w3-text-light-blue"> Even the mystery</strong>  And we know what the mystery is. <strong class="w3-text-light-blue"> which hath been hid from ages and from generations, but now is made manifest to 
+        his saints:</strong> The mystery is, Christ dwelling in these flesh bodies. <strong class="w3-text-light-blue"> To whom God would make known what is the riches of the glory of this mystery among the Gentiles; which 
+        is Christ in you, the hope of glory:</strong> These flesh bodies filled with the glory of God like Christ came back with.  Only he had to die to obtain it, and we do not have to die, 
+        now in this age, to obtain this in the fullness of God's time.  That is what the scripture says. <strong class="w3-text-light-blue"> Whom we preach, warning every man, and teaching every man in all wisdom; that 
+        we may present every man perfect</strong> Now as long as we are flesh and walking after the flesh desires, we are not perfect, but he is able. <strong class="w3-text-light-blue"> which is Christ in you, the hope 
+        of glory: whom we preach, warning every man,</strong>  Or telling us. <strong class="w3-text-light-blue"> and teaching every man in all wisdom; that we may present every man perfect in Christ Jesus:</strong> </p>
+
+        <p class="w3-right-align w3-text-orange" style="opacity: 0.5"><span class="w3-animate-fading" style="opacity: 0.4"></span>  pp. 15</p>    
+
+
+    <p class="w3-justify"><strong class="w3-text-red"> Philippians 3:20</strong>  <span></span><strong class="w3-text-light-blue"> For our conversation is in heaven;</strong> Where is heaven?  I am going to show you in a minute, in the 
+        Spirit. <strong class="w3-text-light-blue"> from whence also we look for the Saviour, the Lord Jesus Christ:</strong>  We are going to read this again. <strong class="w3-text-light-blue"> For our conversation is in heaven; from whence also 
+        we look for the Saviour, the Lord Jesus Christ:</strong> </p>
+        
+    <p class="w3-justify"><strong class="w3-text-red"> Ephesians 2:6</strong>  <span></span><strong class="w3-text-light-blue"> And hath raised us up together, and made us sit together in heavenly places in Christ Jesus:</strong> Now we did not 
+        go anywhere, did we?  He has raised us up together with Christ and made us to sit in heavenly places – spiritual places, heavenly places – together with Christ.  Now do we believe the 
+        Word or don't we?  I have not been anywhere, but yet I sit in heavenly places with Christ.  If you do not believe it – you all have, at times when the Spirit has been upon you so strong 
+        until you feel like you cannot hardly bear any more of it because of the presence of the Spirit.  And those are heavenly places.  Amen.  And we cannot come into that place out side of 
+        being in Christ. </p>
+
+        <p class="w3-right-align w3-text-light-gray" style="opacity: 0.5"><span class="w3-animate-fading" style="opacity: 0.4"></span>  pp. 16</p>    
+        
+    <p class="w3-justify"><strong class="w3-text-red"> Philippians 3:21</strong>  <span></span><strong class="w3-text-light-blue"> Who shall change our vile body, that it may be fashioned like unto his glorious body, according to the working 
+        whereby he is able even to subdue all things unto himself.</strong>  Now he is going to change our vile body that it may be fashioned like unto his glorious body.  Now that is the body 
+        that he came back with, the supernatural body, Amen, into his glorious body.  He did not call his flesh body a glorious body.  He said it was no good.  Remember that, when they said 
+        'good master'.  He said 'do not call me good.  There is only one good, that is my Father', because he was in a flesh body.  But he says <strong class="w3-text-light-blue"> Who shall change our vile body, that it 
+        may be fashioned like unto his glorious body,</strong>  The one that he came back with filled with the glory of God. <strong class="w3-text-light-blue"> according to the working whereby he is able even to subdue 
+        all things unto himself.</strong> </p>    
+  
+  
+    <p class="w3-justify">He is able to change these bodies.  He is able to change our lives to where we will be like unto him.  That is what he says.  Only Christ can do this as we submit to 
+        the Spirit.  Let him work on the spirit.  Quit struggling.  Let him work on it, Amen.  He is able to do it.  The more we struggle in the flesh, the harder it is.  Now if you know that 
+        it is wrong, then quit doing it.  That is the struggle you have to do.  That is your struggle.  Quit doing it.  Ask God to do it.  Amen.  You quit it and ask him to give you the 
+        strength to overcome.  He has promised that he would not let you to be tempted beyond what you were able to bear, didn’t he?</p> 
+
+
+    <p class="w3-justify">If I could somehow say how important that these teachings are; if there was some way that we might know who we are and what our future is out here.  This is our 
+        future – life – what we are talking about that is about to break in upon us.  This is why I get so excited.  I do not dare to turn myself loose, because I am excited.  This is a 
+        reality to me.  The Lord has spoken to me personally concerning this, that I would not see death.  I know that I will live to see the end of all things.  How can I refuse that?  Then 
+        when I hear a man on the 700 Club get up and say that he had died and the Lord sent him back, and he said. "You will never die again.  My coming is but a split second away in God's 
+        timing.”  There are many, many, many that were sent back, that were raised from the dead.  And the Lord told all that he was going to do; how he was going to come to a people and how 
+        he was going to change them.</p> 
+
+        <p class="w3-right-align w3-text-orange" style="opacity: 0.5"><span class="w3-animate-fading" style="opacity: 0.4"></span>  pp. 17</p>   
+       
+     
+    <p class="w3-justify"></p>
+
+
+    <p class="w3-justify"></p>
+
+
+    <p class="w3-justify"></p>
+  
+  
+    <p class="w3-justify"></p> 
+
+
+    <p class="w3-justify"></p> 
+       
+     
+    <p class="w3-justify"></p>
+
+
+    <p class="w3-justify"></p>
+
+
+    <p class="w3-justify"></p>
+  
+  
+    <p class="w3-justify"></p> 
+
+
+    <p class="w3-justify"></p> 
+       
+     
+    <p class="w3-justify"></p>
+
+
+    <p class="w3-justify"></p>
+    
+    
+    <strong class="w3-text-light-blue"> <span class="w3-text-red"></span></strong> 
+
+    <span class="w3-text-red"></span>
+       
+     
+    <p class="w3-justify"></p>
+
+  
+    <p class="w3-justify"><strong class="w3-text-light-blue"> </strong>  <span></span><strong class="w3-text-light-blue"> </strong> </p>
+    
+    <p class="w3-justify"><strong class="w3-text-light-blue"> </strong>  <span></span><strong class="w3-text-light-blue"> </strong> </p>
+
+    <p class="w3-justify"><strong class="w3-text-light-blue"> </strong>  <span></span><strong class="w3-text-light-blue"> </strong> </p>
+    
+    <p class="w3-justify"><strong class="w3-text-light-blue"> </strong>  <span></span><strong class="w3-text-light-blue"> </strong> </p>
+
+    <p class="w3-justify"><strong class="w3-text-light-blue"> </strong>  <span></span><strong class="w3-text-light-blue"> </strong> </p>
+    
+    <p class="w3-justify"><strong class="w3-text-light-blue"> </strong>  <span></span><strong class="w3-text-light-blue"> </strong> </p>
+
+    <p class="w3-justify"><strong class="w3-text-light-blue"> </strong>  <span></span><strong class="w3-text-light-blue"> </strong> </p>
+    
+    <p class="w3-justify"><strong class="w3-text-light-blue"> </strong>  <span></span><strong class="w3-text-light-blue"> </strong> </p>
+        
+    
+    
+        
+      
+    
+    
+    <p class="w3-justify"></p>   
+  
+
+    <p class="w3-justify"></p>   
+    
+
+    <p class="w3-justify"></p>   
+   
+
+    <p class="w3-justify"></p>
+
+    
+    <p class="w3-justify"></p>
+    
+    
+    <p class="w3-justify"></p>   
+    
+
+    <p class="w3-justify"></p>   
+  
+
+    <p class="w3-justify"></p>   
+    
+
+    <p class="w3-justify"></p>   
+   
+
+    <p class="w3-justify"></p>
+
+    
+    <p class="w3-justify"></p>
+    
+    
+    <p class="w3-justify"></p>   
+    
+
+    <p class="w3-justify"></p>   
+  
+
+    <p class="w3-justify"></p>   
+    
+
+    <p class="w3-justify"></p>   
+   
+
+    <p class="w3-justify"></p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="w3-bottom">
+    <div class="w3-bar w3-light-blue w3-card w3-center w3-xlarge">
+      
+      <audio class="w3-padding w3-xxlarge w3-light-blue" controls>
+        <source src="gpfm3.mp3" type="audio/mpeg">
+       </audio>
+     
+      
+  </div>
+  </div> 
+
+    
+
+<!-- Second Grid 
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+</div>
+-->
+<!-- Footer 
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+-->
+<script src="script.js"></script>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
