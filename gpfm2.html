@@ -32,9 +32,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     
     <a href="index.html"><i class='fas fa-arrow-left w3-btn w3-bar-item w3-margin-center w3-text-white' style='font-size:36px;'></i></a>
     <a href="gpfm3.html"><i class='fas fa-arrow-right w3-btn w3-bar-item w3-margin-center w3-text-white' style='font-size:36px;'></i></a>
+    <a><i class=" w3-btn w3-bar-item w3-margin-center w3-right w3-text-red material-icons" style="font-size:36px" onClick="togglePlay()">headset</i></a> 
          
     <i class="w3-btn w3-bar-item w3-margin-center w3-right material-icons w3-text-white" style="font-size:36px" onclick="myFunction4()">find_in_page</i>
-    <i class="w3-btn w3-bar-item w3-margin-center w3-right material-icons w3-text-white" style="font-size:36px" onclick="myFunction2()">brightness_6</i>
+    <!--<i class="w3-btn w3-bar-item w3-margin-center w3-right material-icons w3-text-white" style="font-size:36px" onclick="myFunction2()">brightness_6</i>-->
+    <i class="w3-btn w3-bar-item w3-margin-center w3-right w3-text-red fa fa-microphone" style="font-size:36px" id="start-btn"></i>
+    <i class='w3-btn w3-bar-item w3-margin-center w3-right w3-text-red fas fa-sun' style='font-size:36px' id="unhighlight-btn"></i>
       
 
    
@@ -69,6 +72,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </header>
 -->
 <!-- First Grid -->
+
+    <div id="content">
 
 <div id="font" class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; font-size: 16px; " id="band">
    
@@ -252,7 +257,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <p class="w3-right-align w3-text-light-gray" style="opacity: 0.5"><span class="w3-animate-fading" style="opacity: 0.4"></span>  pp. 12</p>  
        
      
-
+</div>
    
   
        
@@ -272,7 +277,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   </div>
   </div> 
   <script src="script.js"></script>
-
+    
+<script src="script2.js"></script>
    
 
 <script>
